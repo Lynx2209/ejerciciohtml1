@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+body {
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#form-container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+form fieldset legend {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="date"],
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus,
+form input[type="date"]:focus,
+form select:focus {
+    background-color: yellow;
+}
+
+#condiciones {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+#condiciones label {
+    display: inline;
+}
+
+#condiciones input[type="radio"] {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+#condiciones input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-right: 10px;
+}
+
+fieldset:nth-of-type(1) {
+    background-color: #a0dfe7;
+}
+
+fieldset:nth-of-type(2) {
+    background-color: #f4a261;
+}
+
+fieldset:nth-of-type(3) {
+    background-color: #a0dfe7;
+}
+
+#condiciones {
+    background-color: #9df37a;
+}
